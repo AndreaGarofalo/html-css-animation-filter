@@ -172,8 +172,8 @@
     100% {right: 20%;}
 }
 
-.ex-13-button .ex-13-top-white {
-    animation: rotatingbordertop 2s linear infinite;
+.ex-13-button:hover .ex-13-top-white {
+    animation: rotatingbordertop 2s linear;
 }
 
 @keyframes rotatingbordertop {
@@ -191,8 +191,8 @@
     100% {left: 10%;
         top: -10px;}
 }
-.ex-13-button .ex-13-bottom-white {
-    animation: rotatingborderbottom 2s linear infinite;
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: rotatingborderbottom 2s linear;
 }
 
 @keyframes rotatingborderbottom {
